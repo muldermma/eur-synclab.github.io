@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab wiki of the SYNC lab based at Erasmus University Rotterdam, the Netherlands">
+    <meta name="author" content="SYNC lab">
+    <link rel="canonical" href="https://sourcefoundry.org/cinder/open-science/dsa-template.html">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Data sharing agreement - SYNC lab wiki</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">SYNC lab wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../index.html">Home</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../about/intro-sync.html">The SYNC lab</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../about/code-of-conduct.html">Code of conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../about/contribute.html">How to contribute</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../about/collab-tools.html">Collaboration tools</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Agenda <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../agenda/labmeetings.html">Labmeetings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../agenda/holidays.html">Holidays</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="stempelkaart.html">Open Science stempelkaart</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Open access publishing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="open-access-info.html">About open access</a>
+</li>
+
+        
+            
+<li >
+    <a href="open-access-how.html">How to</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Data sharing</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="gdpr.html">The GDPR</a>
+</li>
+
+        
+            
+<li >
+    <a href="pub-packages.html">Publication packages</a>
+</li>
+
+        
+            
+<li >
+    <a href="data-sharing-how.html">How to</a>
+</li>
+
+        
+            
+<li >
+    <a href="neurovault.html">NeuroVault</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="dsa-template.html">Data sharing agreement</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Reproducibility</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="fair-software.html">FAIR software</a>
+</li>
+
+        
+            
+<li >
+    <a href="open-code.html">Reproducible code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Transparency</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="preregistration.html">Preregistration</a>
+</li>
+
+        
+            
+<li >
+    <a href="transparency-checklists.html">Open project checklists</a>
+</li>
+
+        
+            
+<li >
+    <a href="osf.html">Open Science Framework</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Inclusivity</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="inclusivity-goals.html">Our goals for inclusive science</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="oscr.html">Open Science Community Rotterdam</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data management <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../data-management/data-security.html">Data security protocol</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Research Drive</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data-management/research-drive-info.html">About Research Drive</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/research-drive-how.html">How to</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../data-management/folder-structure.html">File organization</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Version control</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data-management/vc-principles.html">Basic principles</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/vc-github.html">Git(hub)</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/vc-datalad.html">Version control for data</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../data-management/FAIR.html">FAIR data</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/types-metadata.html">Types of metadata</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/dmp-dpia-info.html">DMP and DPIA</a>
+</li>
+
+        
+            
+<li >
+    <a href="../data-management/codebooks.html">Codebooks</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Outreach <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../reaching-out/scicom.html">Science communication</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting started at the EUR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../getting-started-eur/welcome-eur.html">Intro to the EUR!</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/time-registration.html">Time registration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/finances.html">Finances</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../getting-started-eur/email-signature.html">Email signature</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="neurovault.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="fair-software.html">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eur-synclab/sync-wiki/edit/master/docs/open-science/dsa-template.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#data-sharing-agreement">Data sharing agreement</a></li>
+            <li class="second-level"><a href="#what-is-a-data-sharing-agreement">What is a data sharing agreement?</a></li>
+                
+            <li class="second-level"><a href="#when-to-use-a-data-sharing-agreement">When to use a data sharing agreement?</a></li>
+                
+            <li class="second-level"><a href="#how-to-make-use-of-a-data-sharing-agreement">How to make use of a data sharing agreement?</a></li>
+                
+            <li class="second-level"><a href="#important-notes">Important notes</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="data-sharing-agreement">Data sharing agreement</h1>
+<h2 id="what-is-a-data-sharing-agreement">What is a data sharing agreement?</h2>
+<p>A data sharing agreement can be set up between the owner of research data and someone with whom data is shared or who will process the data further. Important components of a data sharing agreement are who remains responsible in which role (i.e., are parties joint controllers or independent controllers of the data), about the use of the data (e.g., for scientific purposes) the use of intellectual property (if any) and confidentiality (incl. privacy-sensitive data).</p>
+<p>Using a data sharing agreement to share data leaves a high degree of control for the data owner concerning who has access to the data. However, please note that doing so can <strong>slow the process of data sharing tremendously</strong>. Therefore, always first consider whether there are more efficient ways of data sharing, e.g., using a data repository that has access restriction options.</p>
+<h2 id="when-to-use-a-data-sharing-agreement">When to use a data sharing agreement?</h2>
+<ul>
+<li>When the data cannot be made entirely anonymous and you want to take additional measures to protect data subjects' privacy <strong>AND</strong></li>
+<li>When the data subject has given explicit informed consent to share their personal data with such parties <strong>OR</strong> you have confirmation that you can use a different <a href="https://gdpr.eu/article-6-how-to-process-personal-data-legally/">legal basis</a> to share personal data</li>
+</ul>
+<p>When data can be made entirely anonymous, you do not strictly need a data sharing agreement, except when the data include intellectual property rights. When the participant has NOT given explicit informed consent to share their personal data (non-anonymous data) and there is no other legal basis you can use, you are <strong>not allowed to share the data at all</strong>. Try to find a way to anonymize the data or do not share the data at all.</p>
+<h2 id="how-to-make-use-of-a-data-sharing-agreement">How to make use of a data sharing agreement?</h2>
+<ol>
+<li>Consider whether you really need to use an agreement to share your data. For example, it is not necessary when the data is not confidential, the data does not include intellectual property rights, or if you want to share with researchers within the same university.</li>
+<li>If you do need an agreement, try to make use of a template. The template that we can use at EUR (if sharing EUR-data) can be downloaded <a href="https://eur.data.surfsara.nl/index.php/s/88axNRb4MuKYNlx">here</a>. Another possible template from the Open Brain Consent can be found <a href="https://open-brain-consent.readthedocs.io/en/latest/gdpr/data_user_agreement.html">here</a>.</li>
+<li>Edit the template to fit your specific situation.</li>
+<li>Send the agreement to erslegal [at] eur [dot] nl. They will check the agreement. If you use one of their templates, this process should go relatively quickly.</li>
+<li>Send the agreement to the other party to discuss with their legal department.</li>
+<li>Once both parties are good with the agreement, have someone with legal permission to decide sign the agreement. At EUR, this is usually the faculty dean (if the agreement spans less than 4 years, otherwise it is College van Bestuur). To do this, send the agreement to the dean's secretariat (office [dot] dean [at] essb [dot] eur [dot] nl).</li>
+<li>Send the signed version to <a href="https://www.eur.nl/en/research/research-services/research-quality-integrity/legal-aspects-research">legal services</a>, so that the agreement is registered in the system.</li>
+</ol>
+<h2 id="important-notes">Important notes</h2>
+<ul>
+<li>If the agreement is signed by someone without legal jurisdiction to sign, you won't have the law on your side in case of breach of agreement terms!</li>
+<li>When using the EUR template, please note: <cite>5b. Data Receiver shall, to safeguard any potential intellectual property right and protect confidential information (if any), send papers intended for publication to EUR at least fourteen working days prior to submission.</cite><br> This article was added by legal services to be able to check for violations of intellectual property and privacy issues before a manuscript using "our" data is published. This checking is basically our (the researcher's) responsibility. However, if you need legal support with this, ask legal services for help!</li>
+</ul></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+                <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/languages/yaml.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
